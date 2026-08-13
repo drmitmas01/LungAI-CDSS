@@ -1,0 +1,43 @@
+{
+    "project_name": "LungAI-CDSS",
+    "dataset": "LIDC-IDRI",
+    "task": "Binary lung nodule malignancy-risk classification",
+    "best_model": "XGBoost",
+    "selection_metric": "ROC-AUC",
+    "random_state": 42,
+    "test_size": 0.2,
+    "number_of_records": 2651,
+    "number_of_predictors": 17,
+    "feature_names": [
+        "number_of_radiologists",
+        "subtlety",
+        "subtlety_std",
+        "internalStructure",
+        "internalStructure_std",
+        "calcification",
+        "calcification_std",
+        "sphericity",
+        "sphericity_std",
+        "margin",
+        "margin_std",
+        "lobulation",
+        "lobulation_std",
+        "spiculation",
+        "spiculation_std",
+        "texture",
+        "texture_std"
+    ],
+    "class_mapping": {
+        "0": "Low Risk",
+        "1": "Suspicious Risk"
+    },
+    "performance": {
+        "accuracy": 0.8493408662900188,
+        "precision": 0.875,
+        "recall_sensitivity": 0.9171122994652406,
+        "specificity": 0.6878980891719745,
+        "f1_score": 0.8955613577023499,
+        "roc_auc": 0.9078051023536224
+    },
+    "exported_at": "2026-07-29T21:18:56"
+}
