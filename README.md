@@ -1,5 +1,3 @@
-Yes. Below is a ready-to-paste `README.md` tailored to your **LungAI-CDSS** dissertation project and your use of `app.py`.
-
 # LungAI-CDSS
 
 **LungAI-CDSS** is an Explainable Artificial Intelligence (XAI)-based Clinical Decision Support System research prototype developed for CT-based lung nodule malignancy-risk prediction.
